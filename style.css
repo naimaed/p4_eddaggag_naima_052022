@@ -1033,15 +1033,34 @@ white {
 }
 
 .site-navigation a {
-	border-bottom: 5px solid black;
 	margin-left: 5px;
 	padding-bottom: 0;
+}
+.site-navigation a:hover {
+	border-bottom: 5px solid black;
 }
 
 .col-sm-3 {
 	transition: all 0.3s ease-in-out;
+	margin-bottom: 90px;
 }
 
 .col-sm-3:hover {
 	transform: scale(1.5);
+}
+
+.tc-white {
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+/* .white {
+	padding: 0;
+	display: flex;
+	justify-content: center;
+} */
+.adresse {
+	text-align: center;
+	font-size: 12px;
+	padding-bottom: 20px;
 }
