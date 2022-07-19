@@ -498,14 +498,14 @@ button {
 	border-radius: 0 0 29px 29px;
 }
 .form-group {
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 }
-.from-group label {
-	margin-bottom: 10px;
-}
+
 .form-control {
+	border-width: 2px;
 	border-color: black;
 	box-shadow: none;
+	margin-top: 5px;
 }
 
 .scrollToTop {
